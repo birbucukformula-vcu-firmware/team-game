@@ -4,14 +4,14 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/include"
+                "${workspaceFolder}/external/raylib/include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "${workspaceFolder}/w64devkit/bin/gcc.exe",
+            "compilerPath": "${workspaceFolder}/tools/w64devkit/bin/gcc.exe",
             "cStandard": "c99",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64"

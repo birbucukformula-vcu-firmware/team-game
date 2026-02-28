@@ -1,7 +1,7 @@
 #ifndef ENTITIES_H
 #define ENTITIES_H
 
-#include "include/raylib.h"
+#include "external/raylib/include/raylib.h"
 
 #define MAX_OBSTACLES 10
 #define MAX_COINS 10

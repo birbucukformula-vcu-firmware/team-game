@@ -1,7 +1,7 @@
 #include "particles.h"
 #include <stdlib.h>
 #include <math.h>
-#include "include/raymath.h"
+#include "external/raylib/include/raymath.h"
 
 ParticleSystem* ParticleSystem_Create(void) {
     ParticleSystem* ps = (ParticleSystem*)malloc(sizeof(ParticleSystem));

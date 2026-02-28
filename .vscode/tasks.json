@@ -4,14 +4,14 @@
         {
             "label": "Raylib Build",
             "type": "process",
-            "command": "${workspaceFolder}/w64devkit/bin/gcc.exe",
+            "command": "${workspaceFolder}/tools/w64devkit/bin/gcc.exe",
             "args": [
                 "-g",
                 "${workspaceFolder}/*.c",
                 "-o",
                 "${workspaceFolder}/main.exe",
-                "-I${workspaceFolder}/include",
-                "-L${workspaceFolder}/lib",
+                "-I${workspaceFolder}/external/raylib/include",
+                "-L${workspaceFolder}/external/raylib/lib",
                 "-lraylib",
                 "-lopengl32",
                 "-lgdi32",
@@ -21,7 +21,7 @@
             "options": {
                 "cwd": "${workspaceFolder}",
                 "env": {
-                    "PATH": "${workspaceFolder}/w64devkit/bin;${env:PATH}"
+                    "PATH": "${workspaceFolder}/tools/w64devkit/bin;${env:PATH}"
                 }
             },
             "group": {

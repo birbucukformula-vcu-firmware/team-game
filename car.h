@@ -1,7 +1,7 @@
 #ifndef CAR_H
 #define CAR_H
 
-#include "include/raylib.h"
+#include "external/raylib/include/raylib.h"
 
 typedef struct {
     Vector2 position;

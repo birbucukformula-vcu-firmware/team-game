@@ -1,7 +1,7 @@
 #ifndef TRACK_H
 #define TRACK_H
 
-#include "include/raylib.h"
+#include "external/raylib/include/raylib.h"
 
 #define SCREEN_WIDTH 1280
 #define SCREEN_HEIGHT 720

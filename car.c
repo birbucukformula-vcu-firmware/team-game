@@ -1,6 +1,6 @@
 #include "car.h"
 #include <math.h>
-#include "include/raymath.h"
+#include "external/raylib/include/raymath.h"
 
 Car Car_Create(Vector2 pos, float maxSpeed) {
     return (Car){

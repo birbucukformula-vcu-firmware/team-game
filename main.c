@@ -1,5 +1,5 @@
-#include "include/raylib.h"
-#include "include/raymath.h"
+#include "external/raylib/include/raylib.h"
+#include "external/raylib/include/raymath.h"
 #include "game_state.h"
 #include "car.h"
 #include "particles.h"

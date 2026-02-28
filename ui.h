@@ -1,7 +1,7 @@
 #ifndef UI_H
 #define UI_H
 
-#include "include/raylib.h"
+#include "external/raylib/include/raylib.h"
 
 #define TOTAL_COLORS 6
 

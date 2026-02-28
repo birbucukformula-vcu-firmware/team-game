@@ -1,7 +1,7 @@
 #ifndef PARTICLES_H
 #define PARTICLES_H
 
-#include "include/raylib.h"
+#include "external/raylib/include/raylib.h"
 
 #define MAX_PARTICLES 150
 #define MAX_WEATHER_PARTICLES 150

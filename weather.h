@@ -1,7 +1,7 @@
 #ifndef WEATHER_H
 #define WEATHER_H
 
-#include "include/raylib.h"
+#include "external/raylib/include/raylib.h"
 
 typedef enum { SUNNY, SUNSET, NIGHT, RAINY, SNOWY } WeatherType;
 

@@ -1,7 +1,7 @@
 #ifndef GRAPHICS_H
 #define GRAPHICS_H
 
-#include "include/raylib.h"
+#include "external/raylib/include/raylib.h"
 
 #define TOTAL_COLORS 6
 

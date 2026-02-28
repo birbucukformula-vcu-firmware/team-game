@@ -1,5 +1,5 @@
 #include "graphics.h"
-#include "include/raymath.h"
+#include "external/raylib/include/raymath.h"
 
 void Graphics_DrawFormulaCar(Vector2 pos, float rotation, Color carColor) {
     DrawRectanglePro((Rectangle){pos.x, pos.y, 14, 55}, (Vector2){7, 27}, rotation, carColor);
